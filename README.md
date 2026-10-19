@@ -1,16 +1,21 @@
-# React + Vite
+# Blog Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack Blog Management System built with **Django REST Framework (Backend)** and **React (Frontend)**. It features secure token-based authentication, full CRUD operations for blog posts, comment management, and strict backend permission controls.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+* **Backend:** Python, Django, Django REST Framework, Token Authentication, SQLite
+* **Frontend:** React (Vite), JavaScript, HTML/CSS (Custom Emerald Green & Clean White Theme)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+```text
+blog-management-system/
+│
+├── api/              # Django API application
+├── core/             # Django project configuration
+├── frontend/         # React frontend application
+├── manage.py         # Django management script
+└── requirements.txt  # Backend python dependencies
